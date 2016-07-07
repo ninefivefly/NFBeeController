@@ -23,6 +23,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C88B903B09F73A3EE03F7DC9 /* Pods_NFBeeController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38AA37DE3080734162810448 /* Pods_NFBeeController_Example.framework */; };
+		E0E9A2891D265185002A6393 /* NFAppDotNetApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E9A2881D265185002A6393 /* NFAppDotNetApiClient.m */; };
+		E0E9A28D1D266B07002A6393 /* NFAppDotNetDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E9A28C1D266B07002A6393 /* NFAppDotNetDataModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,10 @@
 		9EB4785BC8CEC51B308ACE96 /* Pods-NFBeeController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFBeeController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NFBeeController_Tests/Pods-NFBeeController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6E3B0EF48247AB15FF907A3 /* Pods_NFBeeController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFBeeController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2573DAC6A06037D4F5AFF8C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E0E9A2871D265185002A6393 /* NFAppDotNetApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFAppDotNetApiClient.h; sourceTree = "<group>"; };
+		E0E9A2881D265185002A6393 /* NFAppDotNetApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFAppDotNetApiClient.m; sourceTree = "<group>"; };
+		E0E9A28B1D266B07002A6393 /* NFAppDotNetDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFAppDotNetDataModel.h; sourceTree = "<group>"; };
+		E0E9A28C1D266B07002A6393 /* NFAppDotNetDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFAppDotNetDataModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +147,7 @@
 		6003F593195388D20070C39A /* Example for NFBeeController */ = {
 			isa = PBXGroup;
 			children = (
+				E0E9A28A1D266809002A6393 /* DataModel */,
 				6003F59C195388D20070C39A /* NFAppDelegate.h */,
 				6003F59D195388D20070C39A /* NFAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -191,6 +198,17 @@
 				C2573DAC6A06037D4F5AFF8C /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		E0E9A28A1D266809002A6393 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				E0E9A2871D265185002A6393 /* NFAppDotNetApiClient.h */,
+				E0E9A2881D265185002A6393 /* NFAppDotNetApiClient.m */,
+				E0E9A28B1D266B07002A6393 /* NFAppDotNetDataModel.h */,
+				E0E9A28C1D266B07002A6393 /* NFAppDotNetDataModel.m */,
+			);
+			name = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -393,6 +411,8 @@
 				6003F59E195388D20070C39A /* NFAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* NFViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				E0E9A2891D265185002A6393 /* NFAppDotNetApiClient.m in Sources */,
+				E0E9A28D1D266B07002A6393 /* NFAppDotNetDataModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

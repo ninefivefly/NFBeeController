@@ -1,0 +1,6 @@
+framework module NFBeeController {
+  umbrella header "NFBeeController-umbrella.h"
+
+  export *
+  module * { export * }
+}

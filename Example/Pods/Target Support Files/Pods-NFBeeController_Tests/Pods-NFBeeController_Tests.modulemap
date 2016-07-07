@@ -1,0 +1,6 @@
+framework module Pods_NFBeeController_Tests {
+  umbrella header "Pods-NFBeeController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
