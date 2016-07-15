@@ -6,8 +6,8 @@
 //  Copyright (c) 2016 ninefivefly. All rights reserved.
 //
 
-@import UIKit;
+#import <NFBeeController/NFBaseViewController.h>
 
-@interface NFViewController : UIViewController
+@interface NFViewController : NFBaseViewController
 
 @end

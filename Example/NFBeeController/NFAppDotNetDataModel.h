@@ -6,7 +6,6 @@
 //  Copyright © 2016年 ninefivefly. All rights reserved.
 //
 
-#import <JSONModel/JSONModel.h>
 #import "NFBaseResponse.h"
 
 @interface NFUser : JSONModel
