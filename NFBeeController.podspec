@@ -22,11 +22,16 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/ninefivefly/NFBeeController'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  # s.screenshots    = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ninefivefly' => 'ninefivefly@foxmail.com' }
-  s.source           = { :git => 'https://github.com/ninefivefly/NFBeeController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+
+  s.source           = { :git => "https://github.com/ninefivefly/NFBeeController.git" }
+  ## 这里不支持ssh的地址，只支持HTTP和HTTPS，最好使用HTTPS
+  ## 正常情况下我们会使用稳定的tag版本来访问，如果是在开发测试的时候，不需要发布release版本，直接指向git地址使用
+  ## 待测试通过完成后我们再发布指定release版本，使用如下方式
+  #s.source          = { :git => 'https://github.com/ninefivefly/NFBeeController.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
