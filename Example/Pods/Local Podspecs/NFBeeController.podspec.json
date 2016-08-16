@@ -1,8 +1,8 @@
 {
   "name": "NFBeeController",
   "version": "0.1.0",
-  "summary": "A short description of NFBeeController.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "NFBeeController是一个集网络请求，数据解析，缓存文件等功能与一体的开发框架。",
+  "description": "NFBeeController是一个集网络请求，数据解析，缓存文件等功能与一体的开发框架，每一个功能模块有对应的DEMO。",
   "homepage": "https://github.com/ninefivefly/NFBeeController",
   "license": {
     "type": "MIT",

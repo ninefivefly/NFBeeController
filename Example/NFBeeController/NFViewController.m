@@ -56,22 +56,22 @@ void STLogResponderChain(UIResponder *responder) {
 {
     return @"NFAppDotNetResponse";
 }
-//
-//-(UIView*)parentView:(NSString *)action
-//{
-//    return self.view;
-//}
-//
-//- (nonnull MBProgressHUD *)activityIndicator:(NSString *)action {
-//    MBProgressHUD* hud = [[MBProgressHUD alloc]init];
-//    return hud;
-//}
-//
-//-(NSString*)textDisplayWhenExecuteAction:(NSString*)action
-//{
-//    return @"加载中...";
-//}
-//
+
+-(UIView*)parentView:(NSString *)action
+{
+    return self.view;
+}
+
+- (nonnull MBProgressHUD *)activityIndicator:(NSString *)action {
+    MBProgressHUD* hud = [[MBProgressHUD alloc]init];
+    return hud;
+}
+
+-(NSString*)textDisplayWhenExecuteAction:(NSString*)action
+{
+    return @"加载中...";
+}
+
 - (NFRequestMethod)customRequestMethodAction:(NSString*)action{
     return NFRequestMethodGet;
 }

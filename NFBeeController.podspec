@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NFBeeController'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NFBeeController.'
+  s.summary          = 'NFBeeController是一个集网络请求，数据解析，缓存文件等功能与一体的开发框架。'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'NFBeeController是一个集网络请求，数据解析，缓存文件等功能与一体的开发框架，每一个功能模块有对应的DEMO。'
 
   s.homepage         = 'https://github.com/ninefivefly/NFBeeController'
   # s.screenshots    = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -27,11 +25,11 @@ TODO: Add long description of the pod here.
   s.author           = { 'ninefivefly' => 'ninefivefly@foxmail.com' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.source           = { :git => "https://github.com/ninefivefly/NFBeeController.git" }
+  #s.source           = { :git => "https://github.com/ninefivefly/NFBeeController.git" }
   ## 这里不支持ssh的地址，只支持HTTP和HTTPS，最好使用HTTPS
   ## 正常情况下我们会使用稳定的tag版本来访问，如果是在开发测试的时候，不需要发布release版本，直接指向git地址使用
   ## 待测试通过完成后我们再发布指定release版本，使用如下方式
-  #s.source          = { :git => 'https://github.com/ninefivefly/NFBeeController.git', :tag => s.version.to_s }
+  s.source          = { :git => 'https://github.com/ninefivefly/NFBeeController.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
